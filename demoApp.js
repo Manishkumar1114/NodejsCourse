@@ -47,7 +47,7 @@ const server = http.createServer((req, res) => {
   }
 });
 
-// Start the server on port 4000 instead of 3000 to avoid the "address already in use" error
+
 server.listen(4000, () => {
   console.log('Server is listening on port 4000');
 });
